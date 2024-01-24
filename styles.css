@@ -84,6 +84,7 @@ body {
     font-size: 16px;
     padding: 12px 12px;
     width: 25%;
+    cursor: pointer;
 }
 
 .songs-intro {
@@ -110,4 +111,71 @@ body {
     width: 150px;
     height: 150px;
     border-radius: 8px;
+    overflow: scroll;
+}
+
+.quotes {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    justify-content: center;
+    padding:  50px 30%;
+    margin-top: 50px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: center;
+}
+
+.speaker {
+    text-align: right;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.cta {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882f6;
+    margin: 7% 15%;
+    padding: 50px;
+    border-radius: 12px;
+    justify-content: center;
+    gap: 8rem;
+}
+
+.left-cta {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.cta-title {
+    font-weight: bold;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.cta-desc {
+    font-size: 16px;
+    color: #e5e7eb;
+}
+
+.cta button {
+    background-color: #3882f6;
+    padding: 12px 40px;
+    border: 3px solid white;
+    border-radius: 8px;
+    color: #f9faf8;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 20px 0;
 }
